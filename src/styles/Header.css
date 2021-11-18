@@ -1,0 +1,51 @@
+/* Elegence */
+:root {
+    --light: white;  
+    --med: rgb(189, 174, 135);
+    --dark:  rgb(96, 113, 124); 
+    font-family: "Bitter", sans-serif;
+    }
+    
+    h1{
+        /* display:inline-block; */
+        text-align: center;
+        border: solid;
+        margin-left: 400px;
+        margin-right: 400px;
+        box-shadow: 5px 10px #888888;
+        border-radius: 5px;
+        background-color: var(--med);
+        opacity: .7;
+      }
+
+    header{
+        margin-bottom: 25px;
+    }
+   
+
+    nav  {
+    float: right;
+    width: 400px;
+    }
+    
+    nav ul {
+    list-style-type: none;
+    }
+    nav ul li { 
+    display: inline-block;
+    margin-left: 20px;
+    }
+    
+    a {
+    color: var(--dark);
+    text-decoration: none;
+    }
+     
+    /* .container{
+        margin-left:10%;
+        padding-left:10%;
+        margin-right:10%;
+        padding-right:10%;
+    
+    } */
+    

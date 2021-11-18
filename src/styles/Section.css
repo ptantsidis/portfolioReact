@@ -96,9 +96,9 @@
         display: inline;
         padding: 20px;
         flex: 0 0 300px;
-       /* // max-width: 25%; */
+        /* max-width: 25%; */
       }
-      .image1, .image2, .image3 {
+      img {
         width: 100%;
         height: 300px;   
       }
@@ -151,4 +151,9 @@
         background-color: var(--dark);
         border-radius: 25px;
         line-height: 2.5;
+      }
+
+      .card-column{
+        width:30%;
+      
       }

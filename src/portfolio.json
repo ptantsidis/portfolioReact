@@ -1,0 +1,44 @@
+[
+    {
+    "title":"Move Pal",
+    "description":"Search Movies and their books.",
+    "github":"https://github.com/altugcakmakci/movie_pal.git",
+    "deploy":"https://altugcakmakci.github.io/movie_pal/",
+    "src":"/assets/images/MoviePal.png"
+    },
+    {
+    "title":"Tech Blog",
+    "description":"Share techie questions and comments.",
+    "github":"https://github.com/ptantsidis/techBlog.git",
+    "deploy":"https://salty-fjord-89562.herokuapp.com/",
+    "src":"/assets/images/blogShot.png"
+    },
+    {
+    "title":"Weather Dashboard",
+    "description":"API for City weather with five day forecast.",
+    "github":"https://github.com/ptantsidis/WeatherBoard.git",
+    "deploy":"https://ptantsidis.github.io/WeatherBoard/",
+    "src":"/assets/images/WeatherBoardPic.png"
+    },  
+    {
+    "title":"Employee Management System",
+    "description":"Tracks employee management.",
+    "github":"https://github.com/ptantsidis/EmployeeManager.git",
+    "deploy":"https://watch.screencastify.com/v/4uRDQ5MsBNm42XbruQz6",
+    "src":"/assets/images/myTeam.png"
+    },
+    {
+    "title":"Progressive Budget",
+    "description":"Online and offline budget tracker.",
+    "github":"https://github.com/ptantsidis/budgetTracker.git",
+    "deploy":"https://serene-castle-59562.herokuapp.com/",
+    "src":"/assets/images/budgetTracker.png"
+    },   
+{
+    "title":"NTF Collect",
+    "description":"NTFC Collaberation to share NTF collections.",
+    "github":"https://github.com/nikhil-kharbanda/UofT_NFTC.git",
+    "deploy":"https://nftc-collect.herokuapp.com/",
+    "src": "/assets/images/ntfc_image.png"
+}
+]

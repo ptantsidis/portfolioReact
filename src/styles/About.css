@@ -1,29 +1,35 @@
+* 
+{
+  font-family: "Bitter", sans-serif;
+}
+
 img {
     float: left; 
-    padding:24px;
-    max-width:75%;
-    max-height: 30vh;
+    /* padding:24px; */
+    /* max-width:75%; */
+     max-height: 45vh; 
   }
-  .container{ 
+  /* .container{ 
     margin-left:10%;
     padding-left:10%;
     margin-right:10%;
     padding-right:10%;
 
+  } */
+  h2{
+    text-align: center;
+    
   }
   .about-me{
     display: flex;
   }
   .left-align{
-    max-width:30%;
+    max-width:40%;
   }
-  .right-align{
-    max-width:70%;
-  }
-
-.about-me ul {
+ .about-me ul {
   display: inline;
-
+  font-weight: bolder;
+  font-size:24px
 }
   .center {
   display: block;

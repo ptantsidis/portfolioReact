@@ -15,10 +15,11 @@ const Section = () => {
       <h1>Full-Stack Development</h1>
       <div className=" container d-flex flex-wrap justify-content-evenly">
       {projects.map((app, key) => {
-        return (<section className="card card-column" key={key}>
+        return (
+        <section className="card card-column" key={key}>
           <h3>{app.title}</h3>
-          <a href={app.deploy}><img src={app.src} className="image img-fluid" alt={app.title} /></a>
-          <a href={app.github}>GitHub</a>
+          <li><a href={app.deploy}><img src={app.src} className="image img-fluid" alt={app.title} /></a></li>
+          <li><a href={app.github}>GitHub</a></li>
         </section>
         )
       })}

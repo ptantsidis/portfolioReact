@@ -7,7 +7,8 @@ h3 {
     width: 100%;
     height: 100%; 
     margin: 0px; 
-    padding: 20px; 
+    padding: 0px; 
+    border-bottom: 10px;
   }
   
   .form-item{
@@ -25,4 +26,8 @@ h3 {
     border-radius: 5px;
     background-color: var(---light);
   }
+  li {
+    list-style-type: none;
+    text-align: left;
+    } 
   

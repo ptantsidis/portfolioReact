@@ -10,6 +10,7 @@ const Section = () => {
   // }, [])
 
   return (
+    <div style={{ backgroundImage: 'url(/assets/images/sunset.jpeg)'}}>
     <section class="column container">
       <h1>Full-Stack Development</h1>
       <div className=" container d-flex flex-wrap justify-content-evenly">
@@ -23,7 +24,7 @@ const Section = () => {
       })}
       </div>
     </section>
-
+    </div>
   );
 }
 

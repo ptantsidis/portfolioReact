@@ -1,46 +1,63 @@
-/* Elegence */
-:root {
-    --light: white;  
-    --med: rgb(189, 174, 135);
-    --dark:  rgb(96, 113, 124); 
-    font-family: "Bitter", sans-serif;
-    }
-    
-    h1{
-        /* display:inline-block;  */
-        text-align: center;
-        /* border: solid; */
-        /* margin-left: 400px; */
-        /* margin-right: 400px; */
-        box-shadow: 5px 10px #888888;
-        border-radius: 5px;
-        background-color: var(--med);
-        opacity: .7;
-      }
 
-    header{
-        margin-bottom: 25px;
-    }
-   
+h1 {
+     display:inline-block;   
+     text-align: center; 
+    /* border: solid;  */
+     margin-left: 400px;  
+     margin-right: 400px; 
+    /* box-shadow: 5px 10px var(--dark); */
+    /* border-radius: 5px; */
+    /* background-color: var(--med); */
+    color: var(---dark);
+    margin-bottom: 25px;
+    height: 10%;
+}
+header {
+    display:inline-block;  
+    text-align: center;
+    /* border: solid;  */
+    margin-left: 390px; 
+    margin-right: 150px;
+    /* box-shadow: 5px 10px var(--dark); */
+    /* border-radius: 5px; */
+    /* background-color: var(--med); */
+    /* opacity: .7; */
+    margin-bottom: 25px;
+    color: var(---dark)
+    /* height: 10%; */
+}
 
-    nav  {
-    float: right;
-    width: 400px;
-    }
-    
-    nav ul {
-    list-style-type: none;
-    }
-    nav ul li { 
-    display: inline-block;
-    margin-left: 20px;
-    }
-    
-    a {
+nav  {
+float: right;
+/* border: solid;  */
+/* box-shadow: 5px 10px var(--dark); */
+/* border-radius: 5px; */
+top: 0;
+} 
+
+nav ul {
+list-style-type: none;
+} 
+
+nav ul li { 
+display: inline-block;
+margin-left: 20px;
+} 
+
+a {
     color: var(--dark);
+    float: right;
+    /* display: block; */
+    text-align: center;
+    padding-right: 14px;
+    /* padding-bottom: 80px; */
     text-decoration: none;
-    }
-     
+    font-size: 17px;
+    height: 10%;
+   
+  };
+
+    
     /* .container{
         margin-left:10%;
         padding-left:10%;

@@ -18,7 +18,7 @@
     "description":"API for City weather with five day forecast.",
     "github":"https://github.com/ptantsidis/WeatherBoard.git",
     "deploy":"https://ptantsidis.github.io/WeatherBoard/",
-    "src":"/assets/images/WeatherBoardPic.png"
+    "src":"/assets/images/Board_pic.png"
     },  
     {
     "title":"Employee Management System",

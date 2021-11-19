@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/About.css';
+import { Link } from "react-router-dom"
 
 export default function About() {
   return (
@@ -15,9 +16,10 @@ export default function About() {
             administrative, training, implementation and consulting.</li>
           <li>Specializing in Aerospace and Defense with experience in manufacturing and automotive.</li>
           <li>Systems Analyst and Programmer adding Full Stack Developer to this already experienced technical expert.</li>
-          {/* <li><a href="https://www.linkedin.com/in/phil-tantsidis-0813ba/">LinkedIn Profile</a></li>
-            <li><a href="./assets/images/Tantsidis.doc">Resume</a></li> */}
-
+          <div></div>
+          <Link to="https://www.linkedin.com/in/phil-tantsidis-0813ba/">LinkedIn Profile</Link>
+          <div></div>
+          <Link to="./assets/images/Tantsidis.doc">Resume</Link>
         </ul>
       </section>
     </section>

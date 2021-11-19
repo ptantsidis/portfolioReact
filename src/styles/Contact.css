@@ -1,154 +1,53 @@
-    /* Elegence */
-    :root {
-        --light: white;  
-        --med: rgb(189, 174, 135);
-        --dark:  rgb(96, 113, 124); 
-      }
-      
-      * {
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      
-      body {
-        display: flex;
-        flex-direction: column;
-        line-height: 1.5;
-      } 
-        
-      /* header {
-        background-color: var(--med);
-      }   */
-      
-      /* header h1 {
-        display: inline;
-        font-size: 40px;
-      } */
-      
-      h2 {
-        text-align: center;
-        /* margin: 10%; */
-        background-color: var(--dark);
-      } 
-       
-      .nav  {
-        float: right;
-        width: 400px;
-      }
-      
-      nav ul {
-        list-style-type: none;
-      }
-      nav ul li { 
-        display: inline-block;
-        margin-left: 20px;
-      }
-        
-      a {
-        color: var(--dark);
-        text-decoration: none;
-       }
-      
-       .container{
-         margin-left:10%;
-         padding-left:10%;
-         margin-right:10%;
-         padding-right:10%;
-      
-       }
-       .about-me{
-         display: flex;
-       }
-       .left-align{
-         max-width:30%;
-       }
-       .right-align{
-         max-width:70%;
-       }
-       .about-me img {
-         /* float: left; */
-         /* padding:24px; */
-         max-width:75%;
-         max-height: 30vh;
-       }
-      .about-me ul {
-        display: inline;
-      
-      }
-       .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-       }
-      
-       #portfolio {
-         display:flex;
-         flex-wrap: wrap;
-         justify-content: center;
-       }
-       #more-portfolio {
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-height: 50%;
-      }
-       .column {
-        display: inline;
-        padding: 20px;
-        flex: 0 0 300px;
-       /* // max-width: 25%; */
-      }
-      .image1, .image2, .image3 {
-        width: 100%;
-        height: 300px;   
-      }
-      
-      .image4, .image5, .image6 {
-        width: 100%;
-        height: 200px;   
-      }
-      h3, 
-      footer, 
-      #contact {
-        text-align: center;
-      }
-      
-      /* input, label, button {
-        display:block;
-        margin:0 auto;
-      } */
-      
-      .form-item{
-        display:flex;
-        justify-content: space-evenly;
-        margin-bottom: 2%;
-      
-      }
-      /* form{
-        margin-left: 10%;
-        padding-left: 10%;
-        text-align: center; */
-      
-      /* } */
-      .form-group{
-        display:flex;
-      }
-      .form-group label{
-        font-size:x-large;
-        max-width: 40%;
-      }
-      
-      .form-group input{
-        max-width:50%;
-      }
-      
-      
-      #submit{
-        margin-top: 10%;
-        margin-bottom: 10%;
-        min-width:50%;
-        margin:0 auto;
-        background-color: var(--dark);
-        border-radius: 25px;
-        line-height: 2.5;
-      }
+/* h1 {
+  display:inline-block;  
+  text-align: center;
+  border: solid; 
+  margin-left: 400px; 
+  margin-right: 400px;
+  box-shadow: 5px 10px var(--dark);
+  border-radius: 5px;
+  background-color: var(--med);
+  opacity: .7;
+  margin-bottom: 25px;
+  height: 10%;
+} */
+  #contact {
+    text-align: center;
+  }
+  
+  input, label, button {
+    display:block;
+    margin:0 auto;
+  }
+  
+  .form-item{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+  }
+form{
+    margin-left: 10%;
+    padding-left: 10%;
+    text-align: center;
+  } 
+  .form-group{
+    display:flex;
+  }
+  .form-group label{
+    font-size:x-large;
+    max-width: 40%;
+  }
+  
+  .form-group input{
+    max-width:50%;
+  }
+  
+  #submit{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    min-width:50%;
+    margin:0 auto;
+    background-color: var(--dark);
+    border-radius: 25px;
+    line-height: 2.5;
+  }

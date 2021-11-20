@@ -5,17 +5,10 @@
 
 img {
     float: left; 
-    /* padding:24px; */
-    /* max-width:75%; */
+
      max-height: 45vh; 
   }
-  /* .container{ 
-    margin-left:10%;
-    padding-left:10%;
-    margin-right:10%;
-    padding-right:10%;
-
-  } */
+ 
   h2{
     text-align: center;
     

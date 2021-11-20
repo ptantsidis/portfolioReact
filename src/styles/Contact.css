@@ -1,53 +1,28 @@
-/* h1 {
-  display:inline-block;  
-  text-align: center;
-  border: solid; 
-  margin-left: 400px; 
-  margin-right: 400px;
-  box-shadow: 5px 10px var(--dark);
-  border-radius: 5px;
-  background-color: var(--med);
-  opacity: .7;
-  margin-bottom: 25px;
-  height: 10%;
+/* * {
+  color:var(--light)
 } */
-  #contact {
+h2 {
+  /* display:inline block; */
+  text-align: center;
+  margin-left: 300px; 
+  margin-right: 400px;
+  margin-bottom: 25px;
+  height: 10%; 
+} 
+ #contact {
     text-align: center;
   }
-  
-  input, label, button {
-    display:block;
-    margin:0 auto;
-  }
-  
+
   .form-item{
     display:flex;
     justify-content: space-evenly;
     margin-bottom: 2%;
   }
-form{
-    margin-left: 10%;
-    padding-left: 10%;
+  .input{
+    box-shadow: 5px 10px var(--dark);
+    border-radius: 5px;
+  }
+
+  form{
     text-align: center;
   } 
-  .form-group{
-    display:flex;
-  }
-  .form-group label{
-    font-size:x-large;
-    max-width: 40%;
-  }
-  
-  .form-group input{
-    max-width:50%;
-  }
-  
-  #submit{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    min-width:50%;
-    margin:0 auto;
-    background-color: var(--dark);
-    border-radius: 25px;
-    line-height: 2.5;
-  }

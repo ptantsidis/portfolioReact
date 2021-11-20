@@ -10,6 +10,7 @@ const Section = () => {
   // }, [])
 
   return (
+    <div>
     <div style={{ backgroundImage: 'url(/assets/images/sunset.jpeg)'}}>
     <section class="column container">
       <h1>Full-Stack Development</h1>
@@ -25,6 +26,7 @@ const Section = () => {
       })}
       </div>
     </section>
+    </div>
     </div>
   );
 }

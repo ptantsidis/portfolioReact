@@ -4,7 +4,8 @@ import { Link } from "react-router-dom"
 
 export default function About() {
   return (
-    <div style={{ backgroundImage: 'url(/assets/images/sundown.jpg)'}}>
+    
+    <div style={{ backgroundImage: 'url(/assets/images/sunset.jpeg)'}}>
     <section className="container">
       <h1>Full-Stack Developer</h1>
       <h2>About me</h2>

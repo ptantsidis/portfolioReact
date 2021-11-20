@@ -15,6 +15,36 @@
       "src": "/assets/images/budgetTracker.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "/assets/images/blogShot.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/Board_pic.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/MoviePal.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/myTeam.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/phil_photo2.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/sunset.jpeg",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ] 
 }

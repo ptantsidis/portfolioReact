@@ -4,7 +4,7 @@ h1 {
      text-align: center; 
     /* border: solid;  */
      margin-left: 400px;  
-     margin-right: 400px; 
+     /* margin-right: 400px;  */
     /* box-shadow: 5px 10px var(--dark); */
     /* border-radius: 5px; */
     /* background-color: var(--med); */
@@ -16,8 +16,8 @@ header {
     display:inline-block;  
     text-align: center;
     /* border: solid;  */
-    margin-left: 390px; 
-    margin-right: 150px;
+     margin-left: 390px;  
+    /* margin-right: 150px; */
     /* box-shadow: 5px 10px var(--dark); */
     /* border-radius: 5px; */
     /* background-color: var(--med); */

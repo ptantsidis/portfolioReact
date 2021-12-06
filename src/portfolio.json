@@ -7,11 +7,11 @@
     "src":"/assets/images/MoviePal.png"
     },
     {
-    "title":"Tech Blog",
-    "description":"Share techie questions and comments.",
-    "github":"https://github.com/ptantsidis/techBlog.git",
-    "deploy":"https://salty-fjord-89562.herokuapp.com/",
-    "src":"/assets/images/blogShot.png"
+    "title":"iGrowFree",
+    "description":"Freedom through change of habits.",
+    "github":"https://github.com/FilipAlH/iGrowFree.git",
+    "deploy":"https://kprf-igrowfree.herokuapp.com/",
+    "src":"/assets/imageshome.png"
     },
     {
     "title":"Weather Dashboard",

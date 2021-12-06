@@ -21,9 +21,9 @@ export default function About() {
           <li>Specializing in Aerospace and Defense with experience in manufacturing and automotive.</li>
           <li>Systems Analyst and Programmer adding Full Stack Developer to this already experienced technical expert.</li>
           <div></div>
-          <Link to ={{ pathname: "https://www.linkedin.com/in/phil-tantsidis-0813ba/", state: {fromDashbord: false }}}  className ='LinkedIn'>LinkedIn Profile</Link>
+          <Link to ={{ pathname: "https://www.linkedin.com/in/phil-tantsidis-0813ba/"}} className ='LinkedIn'>LinkedIn Profile</Link>
           <div></div>
-          <Link to={{ pathname:  "./assets/images/Tantsidis.doc" }} className = 'Resume' >Resume</Link>
+          <Link to={{ pathname:  "https://docs.google.com/document/d/1eImY7yy03w1-4BBdiZYjJgxoDNtWiw3eqNw-_zOaipM/edit?usp=sharing" }} tareget = "_blankl" className = 'Resume' >Resume</Link>
         </ul>
       </section>
     </section>

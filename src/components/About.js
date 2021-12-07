@@ -1,6 +1,12 @@
 import React from 'react';
 import '../styles/About.css';
 import { Link } from "react-router-dom"
+const linkedInHost = "https://www.linkedin.com/in/phil-tantsidis-0813ba/"
+const resumeHost = "https://docs.google.com/document/d/1eImY7yy03w1-4BBdiZYjJgxoDNtWiw3eqNw-_zOaipM/edit?usp=sharing"
+// can also work with relative urls like 'doc/sign/' or '/doc/sign'
+const relativeOrAbsoluteURL = ""
+const linkedInUrl = new URL(relativeOrAbsoluteURL,linkedInHost).href;
+const resumeUrl = new URL(relativeOrAbsoluteURL,resumeHost).href
 
 
 export default function About() {
@@ -21,9 +27,12 @@ export default function About() {
           <li>Specializing in Aerospace and Defense with experience in manufacturing and automotive.</li>
           <li>Systems Analyst and Programmer adding Full Stack Developer to this already experienced technical expert.</li>
           <div></div>
-          <Link to ={{ pathname: "https://www.linkedin.com/in/phil-tantsidis-0813ba/"}} className ='LinkedIn'>LinkedIn Profile</Link>
+          <a href={linkedInUrl} target={'_blank'} rel="noopener noreferrer external">LinkedIn</a>
+          {/* <Link to ={{ pathname: "https://www.linkedin.com/in/phil-tantsidis-0813ba/"}} className ='LinkedIn'>LinkedIn Profile</Link> */}
+          
           <div></div>
-          <Link to={{ pathname:  "https://docs.google.com/document/d/1eImY7yy03w1-4BBdiZYjJgxoDNtWiw3eqNw-_zOaipM/edit?usp=sharing" }} tareget = "_blankl" className = 'Resume' >Resume</Link>
+          <a href={resumeUrl} target={'_blank'} rel="noopener noreferrer external">Resume</a>
+          {/* <Link to={{ pathname:  "https://docs.google.com/document/d/1eImY7yy03w1-4BBdiZYjJgxoDNtWiw3eqNw-_zOaipM/edit?usp=sharing" }} tareget = "_blankl" className = 'Resume' >Resume</Link> */}
         </ul>
       </section>
     </section>

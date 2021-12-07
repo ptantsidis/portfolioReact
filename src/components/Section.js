@@ -1,7 +1,9 @@
 import React from 'react';
 import '../styles/Section.css';
+import moviePal from './images/MoviePal.png';
+
 import projects from '../portfolio.json';
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 
 const Section = () => {
   // const [ project, setProjects] = useState([])
@@ -11,14 +13,15 @@ const Section = () => {
 
   return (
     <div>
-    <div style={{ backgroundImage: 'url(/assets/images/sunset.jpeg)'}}>
-    <section class="column container">
+    <div style={{ backgroundImage: 'url(assets/images/sunset.jpeg)'}}>
+    <section className="column container">
       <h1>Full-Stack Development</h1>
       <div className=" container d-flex flex-wrap justify-content-evenly">
       {projects.map((app, key) => {
         return (
         <section className="card card-column" key={key}>
           <h3>{app.title}</h3>
+          <li>{app.description}</li>
           <li><a href={app.deploy}><img src={app.src} className="image img-fluid" alt={app.title} /></a></li>
           <li><a href={app.github}>GitHub</a></li>
         </section>

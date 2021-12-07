@@ -1,17 +1,17 @@
 [
     {
-    "title":"Move Pal",
+    "title":"Movie Pal",
     "description":"Search Movies and their books.",
     "github":"https://github.com/altugcakmakci/movie_pal.git",
     "deploy":"https://altugcakmakci.github.io/movie_pal/",
-    "src":"/assets/images/MoviePal.png"
+    "src":"MoviePal"
     },
     {
     "title":"iGrowFree",
     "description":"Freedom through change of habits.",
     "github":"https://github.com/FilipAlH/iGrowFree.git",
     "deploy":"https://kprf-igrowfree.herokuapp.com/",
-    "src":"/assets/imageshome.png"
+    "src":"/assets/images/home.png"
     },
     {
     "title":"Weather Dashboard",
@@ -20,14 +20,7 @@
     "deploy":"https://ptantsidis.github.io/WeatherBoard/",
     "src":"/assets/images/Board_pic.png"
     },  
-    {
-    "title":"Employee Management System",
-    "description":"Tracks employee management.",
-    "github":"https://github.com/ptantsidis/EmployeeManager.git",
-    "deploy":"https://watch.screencastify.com/v/4uRDQ5MsBNm42XbruQz6",
-    "src":"/assets/images/myTeam.png"
-    },
-    {
+        {
     "title":"Progressive Budget",
     "description":"Online and offline budget tracker.",
     "github":"https://github.com/ptantsidis/budgetTracker.git",

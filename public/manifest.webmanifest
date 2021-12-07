@@ -7,42 +7,42 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "/assets/images/ntfc_image.png",
+      "src": "/images/ntfc_image.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/assets/images/budgetTracker.png",
+      "src": "/images/budgetTracker.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/assets/images/blogShot.png",
+      "src": "/images/blogShot.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/assets/images/Board_pic.png",
+      "src": "/images/Board_pic.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/assets/images/MoviePal.png",
+      "src": "/images/MoviePal.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/assets/images/myTeam.png",
+      "src": "/images/myTeam.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/assets/images/phil_photo2.png",
+      "src": "/images/phil_photo2.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/assets/images/sunset.jpeg",
+      "src": "/images/sunset.jpeg",
       "sizes": "512x512",
       "type": "image/png"
     }

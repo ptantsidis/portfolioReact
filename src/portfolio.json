@@ -1,37 +1,37 @@
 [
     {
     "title":"Movie Pal",
-    "description":"Search Movies and their books.",
+    "description":"Search Movies and if they have books.",
     "github":"https://github.com/altugcakmakci/movie_pal.git",
     "deploy":"https://altugcakmakci.github.io/movie_pal/",
-    "src":"MoviePal"
+    "src": "/images/MoviePal.png"
     },
     {
     "title":"iGrowFree",
-    "description":"Freedom through change of habits.",
+    "description":"From a Change of Habits, to Growth, to Freedom.",
     "github":"https://github.com/FilipAlH/iGrowFree.git",
     "deploy":"https://kprf-igrowfree.herokuapp.com/",
-    "src":"/assets/images/home.png"
+    "src":"/images/home.png"
     },
     {
     "title":"Weather Dashboard",
-    "description":"API for City weather with five day forecast.",
+    "description":"API for City Weather with five day forecast.",
     "github":"https://github.com/ptantsidis/WeatherBoard.git",
     "deploy":"https://ptantsidis.github.io/WeatherBoard/",
-    "src":"/assets/images/Board_pic.png"
+    "src":"/images/Board_pic.png"
     },  
-        {
+    {
     "title":"Progressive Budget",
-    "description":"Online and offline budget tracker.",
+    "description":"Online/Offline budget tracker.",
     "github":"https://github.com/ptantsidis/budgetTracker.git",
     "deploy":"https://serene-castle-59562.herokuapp.com/",
-    "src":"/assets/images/budgetTracker.png"
+    "src":"/images/budgetTracker.png"
     },   
 {
     "title":"NTF Collect",
-    "description":"NTFC Collaberation to share NTF collections.",
+    "description":"Sharing Non-fungible token collections in NTFC.",
     "github":"https://github.com/nikhil-kharbanda/UofT_NFTC.git",
     "deploy":"https://nftc-collect.herokuapp.com/",
-    "src": "/assets/images/ntfc_image.png"
+    "src": "/images/ntfc_image.png"
 }
 ]

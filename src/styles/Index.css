@@ -4,10 +4,11 @@
     --dark:  rgb(96, 113, 124); 
     font-family: "Bitter", sans-serif;
     }
-    
+
 footer{
     width: 100%;
-
+    background-color: var(--med); 
+    opacity: .5; 
     bottom: 0;
     padding-top: 25px;
     text-align: center;

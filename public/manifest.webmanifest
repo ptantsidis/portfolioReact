@@ -17,11 +17,6 @@
       "type": "image/png"
     },
     {
-      "src": "/images/blogShot.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
       "src": "/images/Board_pic.png",
       "sizes": "512x512",
       "type": "image/png"

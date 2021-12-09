@@ -5,9 +5,9 @@ import '../styles/About.css';
 const linkedInHost = "https://www.linkedin.com/in/phil-tantsidis-0813ba/"
 const resumeHost = "https://docs.google.com/document/d/1eImY7yy03w1-4BBdiZYjJgxoDNtWiw3eqNw-_zOaipM/edit?usp=sharing"
 // can also work with relative urls like 'doc/sign/' or '/doc/sign'
-const relativeOrAbsoluteURL = ""
-const linkedInUrl = new URL(relativeOrAbsoluteURL,linkedInHost).href;
-const resumeUrl = new URL(relativeOrAbsoluteURL,resumeHost).href
+const AbsoluteURL = ""
+const linkedInUrl = new URL(AbsoluteURL,linkedInHost).href;
+const resumeUrl = new URL(AbsoluteURL,resumeHost).href
 // const imageUrl  = new URL(relativeOrAbsoluteURL,imageHost).href
 
 export default function About() {
@@ -15,11 +15,10 @@ export default function About() {
     // 
     <div style={{ backgroundImage: 'url(/assets/images/sunset.jpeg)'}}>
     <section className="container">
-      <h1>About Me</h1>
-      <h2>Full-Stack Developer</h2>
+      <h2>About Me</h2>
+      <h2>Full-Stack Developer+</h2>
       <section className="about-me container m-3 p-3">
         <div className="left-align">
-          {/* <img src= {`${process.env.PUBLIC_URL}/assets/images/phil_photo2.png"`} alt="Phil Tantsidis" className="left" /> */}
           <img src= {myImage} alt="Phil Tantsidis" className="left"/>
         </div>
         <ul className="right-align">

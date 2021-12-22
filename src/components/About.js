@@ -1,14 +1,13 @@
 import React from 'react';
 import '../styles/About.css';
- import myImage from './images/phil_photo2.png';
-// import { Link } from "react-router-dom"
+import myImage from './images/phil_photo2.png';
+
 const linkedInHost = "https://www.linkedin.com/in/phil-tantsidis-0813ba/"
 const resumeHost = "https://docs.google.com/document/d/1eImY7yy03w1-4BBdiZYjJgxoDNtWiw3eqNw-_zOaipM/edit?usp=sharing"
-// can also work with relative urls like 'doc/sign/' or '/doc/sign'
 const AbsoluteURL = ""
 const linkedInUrl = new URL(AbsoluteURL,linkedInHost).href;
 const resumeUrl = new URL(AbsoluteURL,resumeHost).href
-// const imageUrl  = new URL(relativeOrAbsoluteURL,imageHost).href
+
 
 export default function About() {
   return (

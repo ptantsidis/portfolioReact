@@ -1,7 +1,5 @@
 import React from 'react';
 import '../styles/Section.css';
-// import moviePal from './images/MoviePal.png';
-// import ntfc from '/images/ntfc_image.png';
 import projects from '../portfolio.json';
 // import { useState, useEffect } from 'react';
 

@@ -1,17 +1,17 @@
  # Phil Tantsidis Portfolio 
 ____
-  ## [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-   
-  ## Links to applications created /participated in, by Phil Tantsidis
-____  
+  ## Tantsidis Projects  
+  ____  
   ## Table of Contents
 ____
   [Installation](#installation)
 
-  *[Usage](#usage)
-  
-  *[Test](#test)
+  *[Description](#desc)
 
+  *[Usage](#usage)
+
+  *[Start](#start)
+  
   *[Contributions](#contributions)
 
   *[Contact](#contact)
@@ -25,32 +25,33 @@ ____
   *[Images](#images)
 ____  
   ## Installation
-  npm , react , rect-router-dom
+  Npm, REACT, react-router-dom
 
   ## Usage
-  Public presentation
+  Public display of some of my best work.
 
-  ## Test
-  None
+  ## Start
+  https://mysterious-tor-28182.herokuapp.com/
 
   ## Contributions
-  None
+  From scratch build by Phil Tantsidis
     
   ###  Contact
-  ptantsidis@hotmail.com  
-  705-791-9456
+  ptantsidis@hotmail.com
     
   ### License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   (https://opensource.org/licenses/MIT)
   No
 
-   
   ### GitHub Name
   https://github.com/ptantsidis
   
   ### GitHub Repo
    https://github.com/ptantsidis/portfolioReact.git
 
+   ### Heroku Deploy
+   https://mysterious-tor-28182.herokuapp.com/
+
   ### Images  
-  (https://user-images.githubusercontent.com/90045665/142717800-459da9e9-f8aa-4c59-b13d-2a856902309c.png)
+  tantsidis_portfolio

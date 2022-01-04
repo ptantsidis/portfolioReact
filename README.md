@@ -25,7 +25,7 @@ ____
   *[Images](#images)
 ____  
   ## Installation
-  Npm, REACT, react-router-dom
+  Npm, REACT, react-router-dom, bootstrap, google font Bitter
 
   ## Usage
   Public display of some of my best work.
